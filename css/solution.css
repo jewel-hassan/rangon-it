@@ -28,11 +28,7 @@
 @media screen and (max-width: 767px) {
   .solution__list ul li {
     font-size: calc(.5rem + 1vw); }
-  .solution button:nth-child(1) {
-    width: 33%; }
-  .solution button:nth-child(2) {
-    width: 33%; }
-  .solution button:nth-child(3) {
+  .solution-btn-info {
     width: 33%; }
   .solution__tab .sub-btn {
     width: 50%; }
