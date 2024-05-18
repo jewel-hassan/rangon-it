@@ -1,0 +1,25 @@
+.services ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; }
+  .services ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px; }
+
+@media screen and (max-width: 767px) {
+  .services .services-right-side {
+    margin-top: 2rem; }
+  .services ul {
+    grid-template-columns: repeat(2, 1fr); }
+  .services ul li a {
+    font-size: calc(0.4rem + 1vw); } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .services ul {
+    grid-template-columns: repeat(2, 1fr); }
+  .services ul li a span {
+    font-size: calc(0.5rem + .5vw); } }

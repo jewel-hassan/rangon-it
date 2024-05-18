@@ -1,0 +1,79 @@
+@mixin title-style {
+  color: #333333;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+@mixin subtitle-style {
+  color: #ff0000;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@mixin para-style {
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1 {
+  @include title-style;
+}
+h2 {
+  @include title-style;
+}
+h3 {
+  @include subtitle-style;
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+p {
+  @include para-style;
+}
+
+/* RESPONSIVE */
+
+// SMALL DEVICE
+@media screen and (max-width: 767px) {
+  h1,
+  h2 {
+    font-size: calc(1.5rem + 1vw);
+    text-align: center;
+  }
+  p {
+    font-size: calc(0.5rem + 1vw);
+    text-align: center;
+  }
+  h3 {
+    font-size: calc(1rem + 1vw);
+    text-align: center;
+  }
+  h4 {
+    font-size: calc(0.3rem + 1vw);
+  }
+}
+
+// MEDIUM DEVICE
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    h1,
+    h2 {
+      font-size: calc(1rem + 1vw);
+      
+    }
+    h3{
+        font-size: calc(.8rem + 1vw); 
+    }
+    p {
+        font-size: calc(0.3rem + 1vw);
+        
+      }
+      h4 {
+        font-size: calc(0.3rem + 1vw);
+      } 
+    
+}

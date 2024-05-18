@@ -1,0 +1,23 @@
+.expertise ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+// RESPONSIVE
+
+@media screen and (max-width: 767px) {
+
+.expertise ul{
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+
+
+
+    }

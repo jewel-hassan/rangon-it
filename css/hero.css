@@ -1,0 +1,17 @@
+.hero__text {
+  font-size: 30px; }
+
+.hero ul {
+  padding: 0;
+  list-style: none;
+  margin: 0; }
+
+@media screen and (max-width: 767px) {
+  .hero ul {
+    justify-content: center; }
+  .hero__text {
+    font-size: calc(.5rem + 1vw); } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .hero__text {
+    font-size: calc(.5rem + 1vw); } }

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONTAWESOME CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/solution.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <title>rangon</title>
+  </head>
+  <body onload="btnOne()">
+    <!-- START TOP-SECTION -->
+    <div class="top-section">
+      <!-- START HEADER SECTION -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="image/logo.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Solutions </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Career</a>
+                </li>
+              </ul>
+
+              <form>
+                <button class="btn btn-outline-success" type="submit">
+                  Contact
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- END HEADER SECTION -->
+
+      <!-- START HERO SECTION -->
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="hero-left-side">
+                <h1>elevate your brand with handcrafted solutions</h1>
+                <p class="hero__text">
+                  We specialize in creative design, website development,
+                  eCommerce development, and digital marketing solutions.
+                </p>
+                <ul class="d-flex mt-5">
+                  <li>
+                    <img
+                      src="image/hero-icon/laravel-icon.svg"
+                      alt="hero-larvel"
+                      class="img-fluid"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="image/hero-icon/wordpress-icon.svg"
+                      alt="wordpress-icon"
+                      class="img-fluid"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="image/hero-icon/drupal-icon.svg"
+                      alt="drupal-icon"
+                      class="img-fluid"
+                    />
+                  </li>
+                  <li>
+                    <img class="img-fluid" src="image/hero-icon/game-icon.svg" alt="game-icon" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="hero-right-side">
+                <img
+                  class="img-fluid"
+                  src="image/hero-img.svg"
+                  alt="hero-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END HERO SECTION -->
+    </div>
+    <!-- END TOP-SECTION -->
+
+    <!-- START SERVICES SECTION -->
+    <section class="services">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-5 col-md-5">
+            <div class="services-left-side">
+              <img
+                class="img-fluid"
+                src="image/services-img.svg"
+                alt="services-img"
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-7">
+            <div class="services-right-side">
+              <h3>Our Services</h3>
+              <h2>transforming ideas into exceptional digital experiences</h2>
+              <p>
+                From innovative creative design to seamless website and web
+                application development, our offerings extend to CMS
+                development, WordPress, Drupal, HTML5 animated banner creation,
+                and comprehensive digital marketing solutions. Backed by
+                expertise and unwavering dedication, we pave the way for
+                businesses to flourish in the dynamic digital terrain
+              </p>
+            </div>
+            <ul>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/creative-icon.svg"
+                    alt="creative"
+                  />
+                  <span class="ms-2">Creative Design</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/web-develop-icon.svg"
+                    alt="web-develop"
+                  />
+                  <span class="ms-2">Web Development</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/wordpress-icon.svg"
+                    alt="cms-develop"
+                  />
+                  <span class="ms-2">CMS Development</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/digital-marketing-icon.svg"
+                    alt="digital-marketing"
+                  />
+                  <span class="ms-2">Digital Marketing</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/app-develop-icon.svg"
+                    alt="app-development"
+                  />
+                  <span class="ms-2">App Development</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/e-commerce-icon.svg"
+                    alt="e-commerce"
+                  />
+                  <span class="ms-2">e-Commerce Development</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/game-develop-icon.svg"
+                    alt="game-development"
+                  />
+                  <span class="ms-2">Game Development</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="image/services-icon/testing-icon.svg"
+                    alt="qa-testing"
+                  />
+                  <span class="ms-2">QA & Testing</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SERVICES SECTION -->
+
+    <!-- START SOLUTION SECTION -->
+    <section class="solution">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center lh-5">
+            <h3>cutting edge solutions to</h3>
+            <h2>empowering businesses</h2>
+            <p class="solution__para">
+              Embark on a transformative digital journey with our comprehensive
+              suite of services. From captivating creative design to seamless
+              web and software development, we're here to elevate your online
+              presence.
+            </p>
+            <div class="solution__btn mt-5 d-flex gap-3 justify-content-center">
+              <button onclick="btnOne()" id="btn-one" class="solution-btn-info">
+                <span>LOGISTIC MANAGEMENT</span>
+                <h4>Amar PACKET</h4>
+              </button>
+              <button onclick="btnTwo()" id="btn-two" class="solution-btn-info">
+                <span>HRM</span>
+                <h4>Amar OFFICE</h4>
+              </button>
+              <button  onclick="btnThree()" id="btn-three" class="solution-btn-info">
+                <span>POS</span>
+                <h4>Amar DOKAN</h4>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-4 col-md-4">
+            <div class="solution-left-side">
+              <img class="img-fluid" src="image/solution-img.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-8">
+            <div class="solution-right-side lh-lg mt-5">
+              <p>
+                Streamline your parcel deliveries with our app. Track packages,
+                choose delivery options, and pay securely. Our platform ensures
+                smooth operations for users and delivery personnel alike, with a
+                focus on reliability and convenience.
+              </p>
+              <h5>Key Features:</h5>
+              <div class="solution__list" id="text-one">
+                <ul>
+                  <li>Registration/Login</li>
+                  <li>Parcel Tracking</li>
+                  <li>Address Management</li>
+                  <li>Order Placement</li>
+                  <li>Payment Integration</li>
+                  <li>Delivery Options</li>
+                  <li>Push Notifications</li>
+                  <li>Rating and Reviews</li>
+                  <li>Customer Support</li>
+                  <li>Delivery Personnel Interface</li>
+                  <li>Admin Dashboard</li>
+                  <li>Analytics and Reporting</li>
+                  <li>Security Features</li>
+                </ul>
+              </div>
+
+              <div class="solution__list" id="text-two">
+                <ul>
+                  <li>hrm/Login</li>
+                  <li>Parcel Tracking</li>
+                  <li>Address Management</li>
+                  <li>Order Placement</li>
+                  <li>Payment Integration</li>
+                  <li>Delivery Options</li>
+                  <li>Push Notifications</li>
+                  <li>Rating and Reviews</li>
+                  <li>Customer Support</li>
+                  <li>Delivery Personnel Interface</li>
+                  <li>Admin Dashboard</li>
+                  <li>Analytics and Reporting</li>
+                  <li>Security Features</li>
+                </ul>
+              </div>
+
+              <div class="solution__list" id="text-three">
+                <ul>
+                  <li>pos/Login</li>
+                  <li>Parcel Tracking</li>
+                  <li>Address Management</li>
+                  <li>Order Placement</li>
+                  <li>Payment Integration</li>
+                  <li>Delivery Options</li>
+                  <li>Push Notifications</li>
+                  <li>Rating and Reviews</li>
+                  <li>Customer Support</li>
+                  <li>Delivery Personnel Interface</li>
+                  <li>Admin Dashboard</li>
+                  <li>Analytics and Reporting</li>
+                  <li>Security Features</li>
+                </ul>
+              </div>
+              <div class="solution__tab d-flex gap-3">
+                <div class="btn btn-dark sub-btn">
+                  <i class="fa-solid fa-circle-info"></i
+                  ><span class="ms-3">Read More</span>
+                  </div>
+                <div class="btn btn-success sub-btn">
+                  <i class="fa-regular fa-circle-question"></i
+                  ><span class="ms-3">Ask Question</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SOLUTION SECTION -->
+
+    <!-- START EXPERTISE SECTION -->
+        <section class="expertise">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2>let us bring your vision to life with innovation and expertise</h2>
+                <p>Our team of experts specializes in the latest technologies, ensuring your project is in capable hands from concept to launch. </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="mt-5">
+                  
+                  <li><img class="img-fluid" src="image/expertise-icon/HTML.png" alt="html"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/CSS.png" alt="css-icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/JS.png" alt="js-icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/Drupal.png" alt="drupal"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/PHP.png" alt="php-icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/ReactJS.png" alt="react-icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/NextJS.png" alt="NextJS"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/Laravel.png" alt="laravel-icon"></li>
+                  
+                
+                    <li><img class="img-fluid" src="image/expertise-icon/Mongo.png" alt="Mongo-icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/AWS.png" alt="aws-icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/Docker.png" alt="docker=icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/NodeJS.png" alt="NodeJS"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/Figma.png" alt="figma"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/Git.png" alt="git-icons"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/MySQL.png" alt="mysql"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/Illustrator.png" alt="Illustrator"></li>
+                 
+                  
+                  <li><img class="img-fluid" src="image/expertise-icon/Photoshop.png" alt="Photoshop"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/ReactNative.png" alt="ReactNative"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/ThreeJS.png" alt="threejs"></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/WordPress.png" alt=""></li>
+                  <li><img class="img-fluid" src="image/expertise-icon/Photoshop.png" alt="Photoshop"></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- END EXPERTISE SECTION -->
+
+    <!-- START FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row py-5">
+          <div class="footer-left-side mb-5 col-lg-5 col-md-5  col-xs-2 ">
+            <img class="img-fluid" src="image/logo.svg" alt="logo">
+            <div class="footer__location">
+              <img src="image/footer-icon/location-icon.png" alt="location">
+              <span><a href="">Dhaka, Bangladesh</a></span>
+            </div>
+            <div>
+              <img src="image/footer-icon/mail-icon.png" alt="mail">
+              <span><a href="">rangonit@gmail.com</a></span>
+            </div>
+            <div>
+              <img src="image/footer-icon/phone-icon.png" alt="phone">
+              <span><a href="">+880 100 000 0000</a></span>
+            </div>
+          </div>
+          <div class="footer-right-side col-lg-7 col-md-7 col-xs-2">
+            <span class="footer__title">Browse</span>
+            
+            <ul class="mt-4 p-0">
+              <li><a href="#">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#solution">Soluation</a></li>
+              <li><a href="#expertise">Expertise</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__copyright text-center">
+            <img src="image/footer-icon/copy-icon.png" alt="copy-icon" />
+            <span class="mt-1">2024 Rangon IT | All rights reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- BOOTSTRAP JS LINK     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
